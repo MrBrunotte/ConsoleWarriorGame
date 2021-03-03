@@ -1,6 +1,6 @@
 # ConsoleWarriorGame
 
-This is an exercise in building a consol game called "ConsolWariorGame"
+This is an exercise in building a consol game called "ConsolWarriorGame"
 
 ## Inital Classes
 
