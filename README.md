@@ -86,3 +86,7 @@ Logic => Call the UI and get pressed key with GetKey() method and then use a swi
 Next step is to work with the Move(int y, int x) method
 GetCell() has a quickfix will be refactored, it returns null if we are outside of the array cells (for now)
 We create a Clear() in the UI class that clears the console, makes the curser invisible and sets the curser position to 0,0.
+
+## ## Commit Four
+Start with refactoring the Drawmap() in the Game class
+Create Draw(map) and move all code to the Draw(Map map) method in the UI class. We reference the our map in the method Draw(Map map) and when we call the metod in the Game class we have to add the map parameter to the call => Draw(map) 
