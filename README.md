@@ -59,3 +59,4 @@ We extracted an Interface, from the Creature class, to print out the symbol and 
 Since Hero inherits from Creature, it is also a IDrawable meaning that it uses the interface from inheritance!
 Cell is also an IDrawable, we need to implement the interface and the IDrawable has the two public members (color, symbol). Cell already had a Symbol property so we add the color property and att it to the constructor (color has get and set in the Interface so we need both).
 
+## Commit Three
